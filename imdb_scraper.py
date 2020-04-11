@@ -1,13 +1,8 @@
-#Python web scraping vidal
+#Python web scraping www.imdb.com
+#Written by Youcef Soukkou 12-April-2020
 
 from requests import get
 from bs4 import BeautifulSoup
-
-
-
-
-
-
 
 def search(movies): 
 	plage_ = []
